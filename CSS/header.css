@@ -46,8 +46,9 @@ button{
     background-color: #2C7CF4;
     font-family: 'Inter', sans-serif;
     display: flex;
-    padding: 15px 1px 14px 1px;
-    justify-content: space-between;
     border-radius: 12px;
     
+}
+.seta{
+    size: 15px;
 }
