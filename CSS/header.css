@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/Section\ \(1\).png);
+    background-size: cover;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background: #2C7CF4;
+    padding: 20px;
+}
+
+.Logo-motz{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10%;
+    margin-right: 10000px;
+}
+
+.user{
+    margin-right: 10%;
+    margin-bottom: auto;
+    margin-top: auto;
+    
+}
+.text{
+    font-family: 'Inter', sans-serif;
+}
+.text h1{
+    color: #2C7CF4;
+    margin-top: 390px;
+    margin-left: 65px;
+
+}
+.text h2{
+    color: #FFF;
+    margin-left: 65px;
+}
+button{
+    color: #FFF;
+    background-color: #2C7CF4;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    padding: 15px 1px 14px 1px;
+    justify-content: space-between;
+    border-radius: 12px;
+    
+}
