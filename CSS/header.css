@@ -36,6 +36,7 @@ body {
 }
 
 .text h1 {
+
     color: #2C7CF4;
     margin-top: 400px;
     margin-left: 20px;
@@ -46,9 +47,11 @@ body {
     margin-left: 20px;
 }
 
-button {
+button{
     display: flex;
-    justify-content: space-between;
+    bottom: 23px;
+    right: 50PX;
+    position: absolute;
     width: 100%; /* Adjusted width for better responsiveness */
     max-width: 203px; /* Added max-width for smaller screens */
     height: 70px;
@@ -63,7 +66,6 @@ button p {
     height: 70px;
     flex-direction: column;
     justify-content: center;
-    flex-shrink: 0;
     color: #FFF;
     text-align: center;
     font-family: 'Inter', sans-serif;
