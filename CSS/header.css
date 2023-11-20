@@ -1,54 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-body{
+
+body {
     background-image: url(../img/Section\ \(1\).png);
     background-size: cover;
 }
-.menu{
+
+.menu {
     display: flex;
+    flex-wrap: wrap; /* Added to allow items to wrap to the next line on smaller screens */
     justify-content: space-between;
     background: #2C7CF4;
     padding: 20px;
 }
 
-.Logo-motz{
+.Logo-motz {
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 10%;
-    margin-right: 10000px;
+    margin-right: 5%; /* Adjusted margin-right for better responsiveness */
 }
 
-.user{
+.user {
     margin-right: 10%;
     margin-bottom: auto;
     margin-top: auto;
-    
 }
-.text{
-    font-family: 'Inter', sans-serif;
-}
-.text h1{
-    color: #2C7CF4;
-    margin-top: 390px;
-    margin-left: 65px;
 
-}
-.text h2{
-    color: #FFF;
-    margin-left: 65px;
-}
-button{
-    color: #FFF;
-    background-color: #2C7CF4;
+.text {
     font-family: 'Inter', sans-serif;
-    display: flex;
-    border-radius: 12px;
-    
 }
-.seta{
-    size: 15px;
+
+.text h1 {
+    color: #2C7CF4;
+    margin-top: 400px;
+    margin-left: 20px;
+}
+
+.text h2 {
+    color: #FFF;
+    margin-left: 20px;
+}
+
+button {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Adjusted width for better responsiveness */
+    max-width: 203px; /* Added max-width for smaller screens */
+    height: 70px;
+    margin: 20px auto; /* Adjusted margin for better centering */
+    background-color: #2C7CF4;
+    border-radius: 12px;
+}
+
+button p {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .Logo-motz {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .user {
+        margin-right: 5%;
+    }
+
+    button {
+        width: 100%;
+        max-width: none;
+        margin-left: 0;
+    }
 }
