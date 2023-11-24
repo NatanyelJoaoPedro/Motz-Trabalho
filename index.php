@@ -12,7 +12,7 @@
     <header>
         <div class="menu">
             <a href="#"><img src="img/logo-motz (1).png" class="logo-motz"></a>
-            <a href="#"><img src="img/user-tie.png" class="user"></a>
+            <a href="./cadastro-main/index.php"><img src="img/user-tie.png" class="user"></a>
         </div>
         <div class="text">
             <h1>Bem-vindo(a) à Motz</h1><br>
