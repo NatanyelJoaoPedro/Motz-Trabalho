@@ -4,7 +4,6 @@
     box-sizing: border-box;
     justify-content: center;
 }
-
 .hero{
     background-image: url(../img/Section.png);
     height: 500px;
