@@ -11,16 +11,18 @@
 <body>
     <header>
         <div class="menu">
-            <a href="#"><img src="img/logo-motz (1).png" class="logo-motz"></a>
+            <a href="index.html"><img src="img/logo-motz (1).png" class="logo-motz"></a>
             <a href="./cadastro-main/index.php"><img src="img/user-tie.png" class="user"></a>
         </div>
         <div class="text">
             <h1>Bem-vindo(a) à Motz</h1><br>
             <h2>a Transportadora da Votorantim <br> Cimentos que já chega carregada <br> de oportunidades.</h2>
         </div>
-        <button>
-            <p>Próximo</p>
-            <img src="img/icon-solid-cheveron-right.png" class="seta">
-        </button>
+        <div class="button">
+            <a href="#">
+                <p>Próximo</p>
+                <img src="img/icon-solid-cheveron-right.png" class="seta">
+            </a>
+        </div>
     </header>
 </body>

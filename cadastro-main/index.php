@@ -57,6 +57,10 @@ $conexao->close();
 </head>
 <body>
     <header>
+        <div class="menu">
+            <a href="index.html"><img src="../img/logo-motz (1).png" class="logo-motz"></a>
+            <a href="./cadastro-main/index.php"><img src="../img/user-tie.png" class="user"></a>
+        </div>
         <div class="hero">
             <div class="hero-content">
                 <h1>Login</h1>

@@ -4,6 +4,26 @@
     box-sizing: border-box;
     justify-content: center;
 }
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #2C7CF4;
+    padding: 20px;
+}
+
+.logo-motz {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.user {
+    margin-right: 10%;
+    margin-bottom: auto;
+    margin-top: auto;
+}
 .hero{
     background-image: url(../img/Section.png);
     height: 500px;
