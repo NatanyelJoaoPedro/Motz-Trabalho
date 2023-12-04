@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $sql->bind_param("ss",$email, $senha);
 
         if ($sql->execute()) {
-            header('location: index.php?');
+            header('location: ../index.php');
             
         } else {
             echo "Erro ao cadastrar: " . $conn->error;
