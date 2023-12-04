@@ -5,26 +5,6 @@
     margin: 0;
     padding: 0;
 }
-.menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background: #2C7CF4;
-    padding: 20px;
-}
-
-.logo-motz {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 10%;
-    margin-right: 5%;
-}
-
-.user {
-    margin-right: 10%;
-    margin-bottom: auto;
-    margin-top: auto;
-}
 
 .text h2{
     margin-top: 25px;
@@ -35,12 +15,42 @@
     font-style: normal;
     font-weight: 400;
 }
-.icons{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 
+.grupo{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
+
+.sessao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-sessao{
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #2C7CF4;
+    padding: 10px;
+    border-radius: 15px;
+    width: 150px;
+    font-size: 25px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.text02-sessao{
+    width: 150px;
+    font-size: 25px;
+    text-align: justify;
+}
+
 .icons img{
     margin-left: 10%;
     margin-right: 10%;
@@ -48,20 +58,14 @@
     margin-top: 50px;
     width: 5rem;
 }
-.text-icons{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-}
-.text-icons span{
+.icons span{
     width: 250px;
     height: 50px;
     border-radius: 5px;
     background: #2C7CF4;
     
 }
-.text-icons p{
+.icons p{
     font-family: 'Inter', sans-serif;
     font-style: normal;
     display: flex;
